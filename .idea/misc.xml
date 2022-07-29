@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tr/AndroidStudioProjects/ValorantGuideApp/app/src/main/res/font/open_sans.xml" value="0.4266666666666667" />
         <entry key="..\:/Users/tr/AndroidStudioProjects/ValorantGuideApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/tr/AndroidStudioProjects/ValorantGuideApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.39010416666666664" />
       </map>
     </option>
   </component>

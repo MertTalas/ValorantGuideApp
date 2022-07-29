@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ValorantGuideApp</string>
+    <string name="splashscreen_slogan">Learn More About Valorant Agents</string>
 </resources>
