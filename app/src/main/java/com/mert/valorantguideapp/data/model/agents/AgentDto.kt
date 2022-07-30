@@ -2,7 +2,7 @@ package com.mert.valorantguideapp.data.model.agents
 
 
 import com.google.gson.annotations.SerializedName
-import com.mert.valorantguideapp.domain.model.AgentModel
+import com.mert.valorantguideapp.domain.model.Agent
 
 data class AgentDto(
     @SerializedName("abilities")
@@ -49,8 +49,8 @@ data class AgentDto(
     val voiceLine: VoiceLine
 )
 
-fun AgentDto.toAgent(): AgentModel{
-    return AgentModel(
+fun AgentDto.toAgent(): Agent{
+    return Agent(
         uuid=uuid,
         role=role,
         abilities=abilities,

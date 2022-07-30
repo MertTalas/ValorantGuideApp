@@ -3,7 +3,7 @@ package com.mert.valorantguideapp.domain.model
 import com.mert.valorantguideapp.data.model.agents.Ability
 import com.mert.valorantguideapp.data.model.agents.Role
 
-data class AgentModel(
+data class Agent(
     val uuid: String,
     val role: Role,
     val abilities: List<Ability>,

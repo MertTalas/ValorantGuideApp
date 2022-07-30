@@ -1,4 +1,4 @@
-package com.mert.valorantguideapp
+package com.mert.valorantguideapp.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,6 +9,8 @@ import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.mert.valorantguideapp.R
+import com.mert.valorantguideapp.ui.MainActivity
 
 class SplashScreenActivity : AppCompatActivity() {
     private val SPLASH_SCREEN = 2500

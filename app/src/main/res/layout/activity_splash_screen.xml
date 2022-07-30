@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/logo"
-    tools:context=".SplashScreenActivity">
+    tools:context=".ui.SplashScreenActivity">
 
     <ImageView
         android:id="@+id/imageViewSplashScreenLogo"
@@ -24,7 +24,7 @@
         android:layout_marginBottom="160dp"
         android:fontFamily="@font/open_sans"
         android:text="@string/splashscreen_slogan"
-        android:textColor="@color/surface"
+        android:textColor="@color/on_surface"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

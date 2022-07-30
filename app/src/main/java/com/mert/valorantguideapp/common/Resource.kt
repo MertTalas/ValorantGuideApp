@@ -1,4 +1,4 @@
-package com.mert.valorantguideapp.utils
+package com.mert.valorantguideapp.common
 
 sealed class Resource<T>(
     val data: T? = null,
