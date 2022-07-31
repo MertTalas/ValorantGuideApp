@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/agents_nav_graph"
+    app:startDestination="@id/agentsFragment">
+
+    <fragment
+        android:id="@+id/agentsFragment"
+        android:name="com.mert.valorantguideapp.ui.agents.AgentsFragment"
+        android:label="fragment_agents"
+        tools:layout="@layout/fragment_agents">
+        <action
+            android:id="@+id/to_agentDetailFragment"
+            app:destination="@id/agentDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/agentDetailFragment"
+        android:name="com.mert.valorantguideapp.ui.agentdetail.AgentDetailFragment"
+        android:label="AgentDetailFragment" >
+    </fragment>
+</navigation>
