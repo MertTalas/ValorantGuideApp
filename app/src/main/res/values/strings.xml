@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">ValorantGuideApp</string>
     <string name="splashscreen_slogan">Learn More About Valorant Agents</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
