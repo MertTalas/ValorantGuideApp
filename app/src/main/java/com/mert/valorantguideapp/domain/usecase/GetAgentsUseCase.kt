@@ -1,4 +1,4 @@
-package com.mert.valorantguideapp.domain.usecase.get_agents
+package com.mert.valorantguideapp.domain.usecase
 
 import com.mert.valorantguideapp.data.model.agents.toAgent
 import com.mert.valorantguideapp.domain.model.Agent
